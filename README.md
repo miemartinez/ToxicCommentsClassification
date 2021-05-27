@@ -13,7 +13,7 @@ Finally, the project should end with a command line tool that can take a comment
 
 The outputs of the scripts are provided in the out folder. In this, two subfolder have been created to distinguish between the outputs from the two scripts. 
 In the out folder is an image of the word cloud created with the clean comments. I decided not to include the word cloud of toxic words as it was extremely depressing to look at. 
-However, it the toxic word cloud is desired, it can be obtained with a small modification in the word cloud function in the toxicity-grid-search.py.
+However, if the toxic word cloud is desired, it can be obtained with a small modification in the word cloud function in the toxicity-grid-search.py.
 
 The folder grid_search contains the model architecture (as png and txt) and model history (as png) from all the models in the grid search.  
 The folder best_model contains the model architecture (as png and txt) and model history (as png) from the model used for the command line tool.
