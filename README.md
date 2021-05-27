@@ -41,7 +41,7 @@ For the command line tool for comment prediction I employ the best model from th
 
 
 __Dependencies:__ <br>
-To ensure the rest of the dependencies are in accordance with the ones used for the script, you can create the virtual environment ‘toxic_venv’ from the command line by executing the bash script ‘create_toxic_venv.sh’. 
+To ensure the rest of the dependencies are in accordance with the ones used for the script, you can create the virtual environment ‘toxic_venv’ from the command line by executing the bash script ‘create_toxic_venv.sh’. **If using UCloud, you might have to replace line 15 in the bash script with the command ‘sudo apt install graphviz’.**
 ```
     $ bash ./create_toxic_venv.sh
 ```
