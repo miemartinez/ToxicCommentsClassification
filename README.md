@@ -133,7 +133,7 @@ Looking at the word cloud of clean comments, we see that these comments appeal m
 The plot below shows the model history for the CNN run with Adam optimizer, 64 nodes and L2 (ridge) regularization for 20 epochs: <br>
 ![alt text](https://github.com/miemartinez/ToxicCommentsClassification/blob/main/out/best_model/best_model_history.png?raw=true) <br>
 
-However, inspecting the model history plot is seems that the model is overfitting on the training data after the first epoch as the validation loss start to increase while the training loss decreases. 
+When inspecting the model history plot is seems that the model is overfitting on the training data after the first epoch as the validation loss start to increase while the training loss decreases. 
 Similarly, the validation accuracy appears to be stable across epochs while the training accuracy gradually increase and approach 100%.
 Considering the preprocessing steps, I did a quite extensive text cleaning but as I am using word embeddings for my model, it might make more sense to not stem the words and remove all punctuation. 
 In conclusion, the resulting command line tool seems to be working reasonably well though it is slightly overfitted. 
