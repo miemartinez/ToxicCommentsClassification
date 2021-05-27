@@ -33,8 +33,7 @@ To prevent the model overfitting on the training data I employ various methods i
 Both regularization methods are run with the default 0.01 penalty. Furthermore, I try different numbers of nodes in the hidden fully connected layer i.e., 32 and 64 nodes. 
 In the model architecture, I also add a max pooling layer instead of a flattening layer and a dropout layer between the fully connected layer and the output layer. 
 Lastly, in finding the best hyperparameters I run the models with Adam and Stochastic gradient descent, respectively. 
-As many of the words in the corpus are misspelled, I decided to incorporate word embeddings. The embeddings take into account the collocates of the words and this can therefore provide more insightful meaning to the model than simply using a count vectorizer. 
-Moreover, this allows the model to make predictions for strings that have not previously been encountered. <br>
+As many of the words in the corpus are misspelled, I decided to incorporate word embeddings. The embeddings take into account the collocates of the words and this can therefore provide more insightful meaning to the model than simply using a count vectorizer. <br>
 
 For the command line tool for comment prediction I employ the best model from the grid search. I then use this model to predict the label for the comment string provided by the user.
 
