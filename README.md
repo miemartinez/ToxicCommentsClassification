@@ -111,7 +111,7 @@ __Example:__ <br>
     $ python3 predict-toxicity.py -f ../data/train.csv -c 'you make a valid point, but I disagree' -b 128 -t 0.25 -e 10
 
 ```
-The code has been developed on UCloud and tested in the Coder Python application. It has also been tested in Jupyter Hub on worker02. 
+The code has been developed and tested on UCloud in the Coder Python application. It has also been tested in Jupyter Hub on worker02. 
 
 ### Results and Discussion:
 The results of the grid search showed that the models with Adam optimization performed remarkably better than the models using stochastic gradient descent. 
