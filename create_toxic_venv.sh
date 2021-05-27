@@ -12,7 +12,7 @@ python -m ipykernel install --user --name=$VENVNAME
 python -m nltk.downloader all
 
 test -f requirements.txt && pip install -r requirements.txt
-sudo apt install graphviz
+pip install graphviz
 
 deactivate
 echo "build $VENVNAME"
