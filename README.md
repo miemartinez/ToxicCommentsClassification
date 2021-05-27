@@ -18,7 +18,7 @@ However, if the toxic word cloud is desired, it can be obtained with a small mod
 The folder grid_search contains the model architecture (as png and txt) and model history (as png) from all the models in the grid search.  
 The folder best_model contains the model architecture (as png and txt) and model history (as png) from the model used for the command line tool.
 
-The scripts toxicity-grid-search.py and predict-toxicity.py are in the src and they can run without any input but several parameters can be user defined. <br>
+The scripts toxicity-grid-search.py and predict-toxicity.py are in the src and they can run without any input but several parameters can be defined. <br>
 
 ### Method: <br>
 For this project, I use data from a Kaggle competition on classifying toxic comments. The data is structured so that there are six labels under the toxic classification. 
