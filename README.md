@@ -12,7 +12,7 @@ Contrary to the competition task, I decide to treat the classification as a bina
 Finally, the project should end with a command line tool that can take a comment string and classify it as either ‘clean’ or ‘toxic’ using the best model from the grid search.
 
 The outputs of the scripts are provided in the out folder. In this, two subfolder have been created to distinguish between the outputs from the two scripts. 
-In the out folder is an image of the word cloud created with the clean comments. I decided not to include the word cloud of toxic words as it was extremely depressing to look at. 
+In the out folder there is also an image of the word cloud created with the clean comments. I decided not to include the word cloud of toxic words as it was extremely depressing to look at. 
 However, if the toxic word cloud is desired, it can be obtained with a small modification in the word cloud function in the toxicity-grid-search.py.
 
 The folder grid_search contains the model architecture (as png and txt) and model history (as png) from all the models in the grid search.  
@@ -114,7 +114,7 @@ __Example:__ <br>
 ```
 The code has been developed on UCloud and tested in the Coder Python application. It has also been tested in Jupyter Hub on worker02. 
 
-### Results:
+### Results and Discussion:
 The results of the grid search showed that the models with Adam optimization performed remarkably better than the models using stochastic gradient descent. 
 The latter models had an accuracy around 50-60% on the testing data which is only marginally better than chance. In contrast, all models with Adam had an accuracy of above 91%. 
 Focusing on the models with Adam optimization, model performance was not greatly affected by regularization method nor the number of nodes in the hidden layer. 
